@@ -1,0 +1,163 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 Mar 2026, 20:44:14
+    Author     : HP
+*/
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+
+.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .4px .4px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color: #d30614f6;
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.minimize:hover{
+    -fx-background-color: #ddd;
+}
+
+.nav-form{
+    -fx-background-color:linear-gradient(to bottom right,#FFFFFF , #A29BFE);
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-alignment: center-left;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+     -fx-background-radius: 20;
+ 
+}
+
+.logout{
+    -fx-background-radius: 10px;
+    -fx-cursor:hand;
+}
+.logout:hover{
+    -fx-background-color: #ddd;
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.7), 5,0,0,0);
+}
+
+.card{
+    -fx-background-color: linear-gradient(to right, #A29BFE,#FFFFFF);
+    -fx-background-radius: 4px;
+}
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-border-color: linear-gradient(to bottom right, #8c75bd, #5a4192);
+    -fx-border-radius: 10;
+    -fx-border-width: .4px;
+    -fx-background-insets: 0;
+    -fx-background-radius: 10;
+}
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-width: 1px;
+    -fx-background-insets: 0;
+    -fx-faint-focus-color:transparent;
+    -fx-focus-color:transparent;
+}
+
+.add-btn{
+    -fx-background-color: #b8dff7;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+.add-btn:hover{
+    -fx-background-color: #9bd6fb;
+}
+
+.update-btn{
+    -fx-background-color: #b8dff7;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+.update-btn:hover{
+    -fx-background-color: #9bd6fb;
+}
+
+.clear-btn{
+    -fx-background-color: #b8dff7;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+.clear-btn:hover{
+    -fx-background-color: #9bd6fb;
+}
+
+.delete-btn{
+    -fx-background-color: #b8dff7;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+.delete-btn:hover{
+    -fx-background-color: #9bd6fb;
+}
+
+.search{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 4px;
+    -fx-border-color: linear-gradient(to bottom right, #8c75bd, #5a4192);
+    -fx-border-radius: 4px;
+    -fx-font-size: 13px;
+    -fx-font-family: Tahoma;
+    -fx-padding: 0px 0px 0px 28px;
+    -fx-border-width: .8px;
+}
+.search:focused{
+    -fx-background-color: #fff;
+    -fx-border-width: 1.8px;
+}
+
+.table-view{
+    -fx-border-color: linear-gradient(to bottom right, #e6dcfc, #5a4192);
+    -fx-border-width: 2px;
+    -fx-padding: 0px;
+    -fx-border-radius: 8px;
+    -fx-background-color: transparent;
+}
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #8c75bd, #5a4192);
+    -fx-background-radius: 8px 8px 0px 0px;
+    -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+}

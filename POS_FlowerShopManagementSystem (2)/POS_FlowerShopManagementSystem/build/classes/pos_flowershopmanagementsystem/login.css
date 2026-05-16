@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 Mar 2026, 15:20:33
+    Author     : HP
+*/
+/* Input Fields (Username & Password) */
+.usernameField, .passwordField {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-background-radius: 20;
+    
+    -fx-border-color: #dcdde1;
+    -fx-border-radius: 20;
+    -fx-border-width: 1;
+    -fx-padding: 10 15;
+    -fx-font-size: 14px;
+}
+
+/* Input Field එකක් මත Click කළ විට පෙනෙන ආකාරය */
+.usernameField:focused, .passwordField:focused {
+    -fx-border-color: #ffce44;
+    -fx-border-width: 2;
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-faint-focus-color:transparent;
+    -fx-focus-color:transparent;
+}
+
+/* Login Button (PayPoint Yellow) */
+.loginButton {
+    -fx-background-color: #ffce44;
+    -fx-text-fill: #2c3e50;
+    -fx-background-radius: 20;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+.loginButton:hover {
+    -fx-background-color: #e6b800; /* Mouse එක උඩට ගිය විට පාට තද වේ */
+}
+
+
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color: #d30614f6;
+    -fx-border-color: transparent;
+}
+
+

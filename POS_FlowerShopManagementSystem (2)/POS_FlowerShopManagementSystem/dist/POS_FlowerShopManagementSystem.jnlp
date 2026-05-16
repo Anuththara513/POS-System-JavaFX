@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="POS_FlowerShopManagementSystem.jnlp">
+  <information>
+    <title>POS_FlowerShopManagementSystem</title>
+    <vendor>HP</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="POS_FlowerShopManagementSystem.jar" size="634162" download="eager" />
+    <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
+    <jar href="lib\jcommon-1.0.23.jar" size="330246" download="eager" />
+    <jar href="lib\jfreechart-1.0.19.jar" size="1565065" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.48.jar" size="1006956" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="pos_flowershopmanagementsystem.POS_FlowerShopManagementSystem"  name="POS_FlowerShopManagementSystem" />
+  <update check="always"/>
+</jnlp>
